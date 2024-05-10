@@ -1,0 +1,16 @@
+<h3>Search Student Result!</h3>
+<form [formGroup]="SearchStud" (ngSubmit)="search()">
+    <div class="form-group">
+        <label>Roll no</label>
+        <input type="text" class="form-control"  placeholder="Enter rollno" formControlName="rollno">
+      </div><br>
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" class="form-control"  placeholder="Enter name" formControlName="name">
+    </div><br>
+    <div>
+        <button type="submit" class="btn btn-primary" style='margin-right:16px'>Search</button>
+        <button type="reset" class="btn btn-primary" style='margin-right:16px'>Clear</button>
+    </div>
+    
+</form>

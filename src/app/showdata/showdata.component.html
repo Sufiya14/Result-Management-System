@@ -1,0 +1,26 @@
+
+<h3 style='margin-right:100px'>Result!</h3>
+<button class="btn btn-primary" (click)="logout()">logout</button>
+<!-- logout button will take student to home page  -->
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Roll No</th>
+        <th scope="col">Name</th>
+        <th scope="col">Date of birth</th>
+        <th scope="col">Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr >
+        <th scope="row">{{data.id}}</th>
+        <th scope="row">{{data.rollno}}</th>
+        <th scope="row">{{data.name}}</th>
+        <th scope="row">{{data.dob}}</th>
+        <th scope="row">{{data.score}}</th>
+      </tr>
+    </tbody>
+</table>
+
+
